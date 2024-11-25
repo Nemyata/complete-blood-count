@@ -1,0 +1,1136 @@
+[
+    {
+        "text": "=",
+        "x": 237,
+        "y": 0,
+        "width": 22,
+        "height": 10
+    },
+    {
+        "text": "ee",
+        "x": 280,
+        "y": 3,
+        "width": 58,
+        "height": 8
+    },
+    {
+        "text": "cy",
+        "x": 107,
+        "y": 16,
+        "width": 48,
+        "height": 6
+    },
+    {
+        "text": "Penman",
+        "x": 269,
+        "y": 16,
+        "width": 41,
+        "height": 6
+    },
+    {
+        "text": "ae",
+        "x": 349,
+        "y": 16,
+        "width": 29,
+        "height": 6
+    },
+    {
+        "text": "me",
+        "x": 484,
+        "y": 18,
+        "width": 33,
+        "height": 4
+    },
+    {
+        "text": "авн",
+        "x": 21,
+        "y": 29,
+        "width": 43,
+        "height": 7
+    },
+    {
+        "text": "WC)",
+        "x": 67,
+        "y": 29,
+        "width": 26,
+        "height": 7
+    },
+    {
+        "text": "о",
+        "x": 283,
+        "y": 29,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "ст",
+        "x": 349,
+        "y": 29,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "Bas",
+        "x": 479,
+        "y": 29,
+        "width": 15,
+        "height": 7
+    },
+    {
+        "text": "рра",
+        "x": 22,
+        "y": 41,
+        "width": 36,
+        "height": 8
+    },
+    {
+        "text": "(RBC)",
+        "x": 74,
+        "y": 30,
+        "width": 21,
+        "height": 28
+    },
+    {
+        "text": "ae",
+        "x": 283,
+        "y": 41,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "ae",
+        "x": 349,
+        "y": 43,
+        "width": 31,
+        "height": 4
+    },
+    {
+        "text": "aes",
+        "x": 463,
+        "y": 41,
+        "width": 23,
+        "height": 6
+    },
+    {
+        "text": "(НОВ)",
+        "x": 69,
+        "y": 53,
+        "width": 24,
+        "height": 6
+    },
+    {
+        "text": "1",
+        "x": 285,
+        "y": 53,
+        "width": 12,
+        "height": 6
+    },
+    {
+        "text": "л",
+        "x": 359,
+        "y": 55,
+        "width": 10,
+        "height": 4
+    },
+    {
+        "text": "т",
+        "x": 459,
+        "y": 53,
+        "width": 11,
+        "height": 6
+    },
+    {
+        "text": "ст",
+        "x": 479,
+        "y": 53,
+        "width": 12,
+        "height": 6
+    },
+    {
+        "text": "е",
+        "x": 22,
+        "y": 65,
+        "width": 13,
+        "height": 6
+    },
+    {
+        "text": "as",
+        "x": 283,
+        "y": 65,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 361,
+        "y": 65,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "за",
+        "x": 462,
+        "y": 65,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "г",
+        "x": 479,
+        "y": 65,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "[Crean",
+        "x": 21,
+        "y": 76,
+        "width": 33,
+        "height": 8
+    },
+    {
+        "text": "pepo",
+        "x": 83,
+        "y": 78,
+        "width": 43,
+        "height": 6
+    },
+    {
+        "text": "за",
+        "x": 283,
+        "y": 76,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "+",
+        "x": 359,
+        "y": 76,
+        "width": 10,
+        "height": 8
+    },
+    {
+        "text": "a0",
+        "x": 462,
+        "y": 76,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 479,
+        "y": 76,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "[creme",
+        "x": 21,
+        "y": 88,
+        "width": 32,
+        "height": 8
+    },
+    {
+        "text": "Sorat",
+        "x": 122,
+        "y": 90,
+        "width": 44,
+        "height": 6
+    },
+    {
+        "text": "a",
+        "x": 283,
+        "y": 88,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "ст",
+        "x": 462,
+        "y": 88,
+        "width": 9,
+        "height": 6
+    },
+    {
+        "text": "Е",
+        "x": 479,
+        "y": 88,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "[Cpe",
+        "x": 21,
+        "y": 100,
+        "width": 32,
+        "height": 8
+    },
+    {
+        "text": "НБ",
+        "x": 112,
+        "y": 88,
+        "width": 10,
+        "height": 28
+    },
+    {
+        "text": "peepee",
+        "x": 133,
+        "y": 100,
+        "width": 41,
+        "height": 8
+    },
+    {
+        "text": "ne",
+        "x": 283,
+        "y": 100,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "re",
+        "x": 357,
+        "y": 102,
+        "width": 14,
+        "height": 5
+    },
+    {
+        "text": "Bas",
+        "x": 459,
+        "y": 100,
+        "width": 31,
+        "height": 7
+    },
+    {
+        "text": "perpen)",
+        "x": 106,
+        "y": 112,
+        "width": 51,
+        "height": 8
+    },
+    {
+        "text": "ny",
+        "x": 284,
+        "y": 112,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 361,
+        "y": 112,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "TATE",
+        "x": 457,
+        "y": 112,
+        "width": 36,
+        "height": 6
+    },
+    {
+        "text": "2",
+        "x": 284,
+        "y": 124,
+        "width": 13,
+        "height": 6
+    },
+    {
+        "text": "а,",
+        "x": 349,
+        "y": 124,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "150",
+        "x": 459,
+        "y": 124,
+        "width": 12,
+        "height": 6
+    },
+    {
+        "text": "о",
+        "x": 478,
+        "y": 124,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "[pesos",
+        "x": 21,
+        "y": 124,
+        "width": 48,
+        "height": 8
+    },
+    {
+        "text": "(PLT)",
+        "x": 75,
+        "y": 124,
+        "width": 18,
+        "height": 8
+    },
+    {
+        "text": "Mev",
+        "x": 22,
+        "y": 136,
+        "width": 17,
+        "height": 6
+    },
+    {
+        "text": "mk",
+        "x": 66,
+        "y": 136,
+        "width": 11,
+        "height": 6
+    },
+    {
+        "text": "a",
+        "x": 80,
+        "y": 136,
+        "width": 23,
+        "height": 6
+    },
+    {
+        "text": "о)",
+        "x": 138,
+        "y": 136,
+        "width": 20,
+        "height": 7
+    },
+    {
+        "text": "я",
+        "x": 284,
+        "y": 136,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "г",
+        "x": 359,
+        "y": 136,
+        "width": 10,
+        "height": 7
+    },
+    {
+        "text": "7a",
+        "x": 461,
+        "y": 136,
+        "width": 10,
+        "height": 6
+    },
+    {
+        "text": "г",
+        "x": 481,
+        "y": 136,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "POW",
+        "x": 22,
+        "y": 147,
+        "width": 18,
+        "height": 6
+    },
+    {
+        "text": "poor)",
+        "x": 93,
+        "y": 147,
+        "width": 51,
+        "height": 8
+    },
+    {
+        "text": "1st",
+        "x": 284,
+        "y": 147,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "о:",
+        "x": 463,
+        "y": 147,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "о.",
+        "x": 479,
+        "y": 147,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "[ЕЭ",
+        "x": 17,
+        "y": 146,
+        "width": 21,
+        "height": 28
+    },
+    {
+        "text": "mo",
+        "x": 42,
+        "y": 161,
+        "width": 8,
+        "height": 4
+    },
+    {
+        "text": "Весеруен",
+        "x": 54,
+        "y": 159,
+        "width": 42,
+        "height": 8
+    },
+    {
+        "text": "г",
+        "x": 355,
+        "y": 161,
+        "width": 18,
+        "height": 4
+    },
+    {
+        "text": "z",
+        "x": 464,
+        "y": 164,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "text": "я",
+        "x": 465,
+        "y": 159,
+        "width": 3,
+        "height": 4
+    },
+    {
+        "text": "Е",
+        "x": 476,
+        "y": 159,
+        "width": 9,
+        "height": 6
+    },
+    {
+        "text": "_Лейкоцитарная",
+        "x": 225,
+        "y": 172,
+        "width": 78,
+        "height": 11
+    },
+    {
+        "text": "формоза.",
+        "x": 306,
+        "y": 172,
+        "width": 42,
+        "height": 11
+    },
+    {
+        "text": "—",
+        "x": 107,
+        "y": 188,
+        "width": 48,
+        "height": 6
+    },
+    {
+        "text": "Penna",
+        "x": 269,
+        "y": 188,
+        "width": 41,
+        "height": 6
+    },
+    {
+        "text": "i",
+        "x": 349,
+        "y": 188,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "mee",
+        "x": 484,
+        "y": 190,
+        "width": 33,
+        "height": 4
+    },
+    {
+        "text": "Tp",
+        "x": 22,
+        "y": 201,
+        "width": 39,
+        "height": 6
+    },
+    {
+        "text": "pa",
+        "x": 76,
+        "y": 203,
+        "width": 31,
+        "height": 6
+    },
+    {
+        "text": "oe",
+        "x": 132,
+        "y": 201,
+        "width": 10,
+        "height": 7
+    },
+    {
+        "text": "Т",
+        "x": 283,
+        "y": 201,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 349,
+        "y": 201,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "о.",
+        "x": 455,
+        "y": 201,
+        "width": 16,
+        "height": 7
+    },
+    {
+        "text": "о.",
+        "x": 479,
+        "y": 201,
+        "width": 15,
+        "height": 7
+    },
+    {
+        "text": "Henge",
+        "x": 22,
+        "y": 213,
+        "width": 48,
+        "height": 8
+    },
+    {
+        "text": "TASC",
+        "x": 73,
+        "y": 213,
+        "width": 34,
+        "height": 6
+    },
+    {
+        "text": "a)",
+        "x": 110,
+        "y": 213,
+        "width": 18,
+        "height": 8
+    },
+    {
+        "text": "Sis",
+        "x": 283,
+        "y": 213,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "aches",
+        "x": 349,
+        "y": 213,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "2",
+        "x": 456,
+        "y": 218,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "text": "*",
+        "x": 456,
+        "y": 213,
+        "width": 3,
+        "height": 4
+    },
+    {
+        "text": "т",
+        "x": 467,
+        "y": 213,
+        "width": 4,
+        "height": 6
+    },
+    {
+        "text": "7s",
+        "x": 479,
+        "y": 213,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "mg",
+        "x": 279,
+        "y": 225,
+        "width": 22,
+        "height": 6
+    },
+    {
+        "text": "mete",
+        "x": 349,
+        "y": 225,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "Dost",
+        "x": 22,
+        "y": 225,
+        "width": 47,
+        "height": 7
+    },
+    {
+        "text": "()",
+        "x": 75,
+        "y": 225,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "юТ",
+        "x": 455,
+        "y": 225,
+        "width": 15,
+        "height": 7
+    },
+    {
+        "text": "от",
+        "x": 479,
+        "y": 225,
+        "width": 15,
+        "height": 7
+    },
+    {
+        "text": "ЕЕЕр",
+        "x": 22,
+        "y": 236,
+        "width": 57,
+        "height": 8
+    },
+    {
+        "text": "а",
+        "x": 283,
+        "y": 236,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 349,
+        "y": 236,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "00",
+        "x": 455,
+        "y": 236,
+        "width": 16,
+        "height": 7
+    },
+    {
+        "text": "12",
+        "x": 479,
+        "y": 236,
+        "width": 15,
+        "height": 7
+    },
+    {
+        "text": "Mame",
+        "x": 22,
+        "y": 248,
+        "width": 36,
+        "height": 7
+    },
+    {
+        "text": "(oc)",
+        "x": 64,
+        "y": 248,
+        "width": 19,
+        "height": 8
+    },
+    {
+        "text": "oe",
+        "x": 283,
+        "y": 248,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 349,
+        "y": 248,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "о»",
+        "x": 455,
+        "y": 248,
+        "width": 16,
+        "height": 7
+    },
+    {
+        "text": "о",
+        "x": 479,
+        "y": 248,
+        "width": 14,
+        "height": 7
+    },
+    {
+        "text": "scene",
+        "x": 21,
+        "y": 260,
+        "width": 46,
+        "height": 8
+    },
+    {
+        "text": "ae",
+        "x": 70,
+        "y": 260,
+        "width": 18,
+        "height": 7
+    },
+    {
+        "text": "1",
+        "x": 284,
+        "y": 260,
+        "width": 14,
+        "height": 6
+    },
+    {
+        "text": "аа,",
+        "x": 349,
+        "y": 260,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "ie",
+        "x": 457,
+        "y": 260,
+        "width": 13,
+        "height": 6
+    },
+    {
+        "text": "Ze",
+        "x": 478,
+        "y": 260,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "[а",
+        "x": 18,
+        "y": 260,
+        "width": 10,
+        "height": 28
+    },
+    {
+        "text": "capes",
+        "x": 33,
+        "y": 272,
+        "width": 57,
+        "height": 8
+    },
+    {
+        "text": "pa",
+        "x": 97,
+        "y": 272,
+        "width": 38,
+        "height": 7
+    },
+    {
+        "text": "m",
+        "x": 285,
+        "y": 272,
+        "width": 10,
+        "height": 6
+    },
+    {
+        "text": "a",
+        "x": 460,
+        "y": 272,
+        "width": 11,
+        "height": 6
+    },
+    {
+        "text": "Lo",
+        "x": 480,
+        "y": 272,
+        "width": 9,
+        "height": 7
+    },
+    {
+        "text": "ro",
+        "x": 283,
+        "y": 284,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "Bs",
+        "x": 455,
+        "y": 284,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "та",
+        "x": 479,
+        "y": 284,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "Dong",
+        "x": 22,
+        "y": 296,
+        "width": 47,
+        "height": 7
+    },
+    {
+        "text": "е",
+        "x": 74,
+        "y": 296,
+        "width": 8,
+        "height": 6
+    },
+    {
+        "text": "So",
+        "x": 282,
+        "y": 296,
+        "width": 17,
+        "height": 6
+    },
+    {
+        "text": "rs",
+        "x": 467,
+        "y": 296,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "eb",
+        "x": 22,
+        "y": 307,
+        "width": 39,
+        "height": 8
+    },
+    {
+        "text": "Se",
+        "x": 64,
+        "y": 307,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "оа",
+        "x": 285,
+        "y": 307,
+        "width": 10,
+        "height": 6
+    },
+    {
+        "text": "о-",
+        "x": 463,
+        "y": 307,
+        "width": 23,
+        "height": 6
+    },
+    {
+        "text": "Mawar",
+        "x": 22,
+        "y": 319,
+        "width": 42,
+        "height": 7
+    },
+    {
+        "text": "-",
+        "x": 67,
+        "y": 319,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "Si",
+        "x": 285,
+        "y": 319,
+        "width": 10,
+        "height": 6
+    },
+    {
+        "text": "СЕН",
+        "x": 461,
+        "y": 319,
+        "width": 26,
+        "height": 6
+    },
+    {
+        "text": "ЕР",
+        "x": 21,
+        "y": 331,
+        "width": 58,
+        "height": 8
+    },
+    {
+        "text": "Е",
+        "x": 286,
+        "y": 331,
+        "width": 9,
+        "height": 6
+    },
+    {
+        "text": "с",
+        "x": 361,
+        "y": 331,
+        "width": 7,
+        "height": 6
+    },
+    {
+        "text": "[scorer",
+        "x": 21,
+        "y": 343,
+        "width": 47,
+        "height": 6
+    },
+    {
+        "text": "Toten",
+        "x": 261,
+        "y": 343,
+        "width": 58,
+        "height": 8
+    },
+    {
+        "text": "Mo",
+        "x": 222,
+        "y": 355,
+        "width": 11,
+        "height": 8
+    },
+    {
+        "text": "jaxacus",
+        "x": 251,
+        "y": 358,
+        "width": 32,
+        "height": 5
+    },
+    {
+        "text": "эритроцитов",
+        "x": 286,
+        "y": 358,
+        "width": 66,
+        "height": 8
+    },
+    {
+        "text": "—",
+        "x": 107,
+        "y": 372,
+        "width": 48,
+        "height": 6
+    },
+    {
+        "text": "a=",
+        "x": 349,
+        "y": 372,
+        "width": 30,
+        "height": 6
+    },
+    {
+        "text": "none",
+        "x": 484,
+        "y": 374,
+        "width": 33,
+        "height": 4
+    },
+    {
+        "text": "Bocas",
+        "x": 273,
+        "y": 384,
+        "width": 34,
+        "height": 8
+    },
+    {
+        "text": "Boose",
+        "x": 273,
+        "y": 416,
+        "width": 34,
+        "height": 8
+    },
+    {
+        "text": "Bose",
+        "x": 273,
+        "y": 448,
+        "width": 34,
+        "height": 8
+    },
+    {
+        "text": "СЕ",
+        "x": 22,
+        "y": 480,
+        "width": 44,
+        "height": 8
+    },
+    {
+        "text": "о",
+        "x": 285,
+        "y": 480,
+        "width": 10,
+        "height": 6
+    },
+    {
+        "text": "ra",
+        "x": 467,
+        "y": 480,
+        "width": 15,
+        "height": 6
+    },
+    {
+        "text": "Mees",
+        "x": 22,
+        "y": 492,
+        "width": 43,
+        "height": 8
+    },
+    {
+        "text": "i",
+        "x": 286,
+        "y": 492,
+        "width": 9,
+        "height": 6
+    },
+    {
+        "text": "om",
+        "x": 467,
+        "y": 492,
+        "width": 16,
+        "height": 6
+    },
+    {
+        "text": "Boca",
+        "x": 22,
+        "y": 504,
+        "width": 42,
+        "height": 6
+    },
+    {
+        "text": "POT",
+        "x": 74,
+        "y": 506,
+        "width": 45,
+        "height": 6
+    },
+    {
+        "text": "Tota",
+        "x": 260,
+        "y": 504,
+        "width": 60,
+        "height": 8
+    }
+]
