@@ -1,15 +1,58 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from huggingface_hub import InferenceClient
+import re
+import json
 
-model_name = "Qwen/Qwen2.5-1.5B-Instruct"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+with open('config.json') as f:
+    config = json.load(f)
 
+client = InferenceClient(api_key=config['api_key'])
+def extract_data(response):
+    data = {}
+    for line in response.split('\n'):
+        if ':' in line:
+            key, value = line.split(':', 1)
+            value = value.strip()
 
+            clean_value = re.match(r'[\d.]+', value)
+            if clean_value:
+                data[key.strip()] = clean_value.group()
+            else:
+                data[key.strip()] = value
+    return data
 
 prompt = """
-Тебе на ввод дадут текст. Текст был обработан ocr. Тебе надо попытаться восстановить исходную версию текста.
-Вот текст:
+На вход дан текст, полученный через OCR с результатами медицинского анализа крови. 
+Восстанови и выведи только значения следующих показателей: Пол, Тромбоциты, Эритроциты, Гемоглобин, Лейкоциты.
+Формат ответа:
+- Пол: <значение>
+- Гемоглобин: <значение>
+- Эритроциты: <значение>
+- Тромбоциты: <значение>
+- Лейкоциты: <значение>
+
+Вот текст анализа:
 """
+
+prompt_1 = """На вход дан текст, полученный через OCR с результатами медицинского анализа крови. 
+
+Восстанови и верни следующую информацию:
+- Пол
+- Гемоглобин  
+- Эритроциты
+- Тромбоциты
+- Лейкоциты
+
+Ответ должен быть в следующем формате:
+
+Пол: <значение>
+Гемоглобин: <значение>
+Эритроциты: <значение>
+Тромбоциты: <значение>
+Лейкоциты: <значение>
+
+Текст анализа:
+"""
+
 ocr_1 = """Исследование Расчетная дата Значение. выполнения измерения ОБЩИЙ АНАЛИЗ КРОВИ Нормальные значения Статус Гемоглобин 20!03!2020 115 г/л 108-132 выполнено Эритроциты 20103!2020 4.52 ++ х10121л 4.0 - 4.4 выполнено Гематокрит 20103!2020 35.0 % 32-42 выполнено Средний объем эритроцитов (МСУ) 20103!2020 77 фл 77-83 выполнено Среднее содержание НО в эритроците 20103!2020 25.4 пг 22.7-32.7 выполнено (МСН) Средняя концентрация НО в эритроцитах (МСНС) 20103!2020 329-- г/л 336-344 выполнено Цветовой показатель 20103!2020 0.76 -- 0,85- 1 выполнено Тромбоциты 20103!2020 306 х10*91л 196-344 выполнено Лейкоциты 20103!2020 7.2 х10*91л 5.5-15.5 выполнено Нейтрофилы сегментоядерные 20103!2020 1.72 х10*91л 1.5-8.5 выполнено Нейтрофилы сегментоядерные °/о 20103!2020 24.0 -- % 34-54 выполнено Эозинофилы 20103!2020 0.32 + х10*91л 0.02 - 0.3 выполнено Эозинофилы °!о 20103!2020 4.4 % 1 -5 выполнено Базофилы 20103!2020 0.05 х10*91л 0-0.07 выполнено Базофилы °/о 20103!2020 0.7 °/о 0-1  выполнено Моноциты 20103!2020 0.32 х10*91л 0.09-0.8 выполнено Моноциты °/о 20103!2020 4.4 °/о 4-8  выполнено Лимфоциты 20103!2020 4.79 х10*91л 1.5 - 7 выполнено Лимфоциты °/о 20103!2020 66.5 ++ % 33-53 выполнено СО3 (по Вестергрену) капиллярная кровь 20103!2020 30 ++ мм/час о - 10 выполнено Комментарий 19103!2020 выполнено 
 
 1 2 3 4 
@@ -24,30 +67,19 @@ ocr_2 = """ата рождении: 05.10.1978 Место жительства: 
 ocr_3 = ""
 ocr_4 = ""
 
-input_text = f"{prompt} {ocr_1}"
+input_text = f"{prompt}{ocr_2}"
+input_text += "Ответ должен быть кратким, строго на русском и строго соответствовать указанному формату. Не добавляй комментарии или пояснения."
 
-messages = [
-    {"role": "system", "content": "You are a helpful assistant. Ты говоришь на русском. Тебе на ввод дают текст. Твоя задача восстановить этот текст"},
-    {"role": "user", "content": input_text}
-]
+messages = [{"role": "system", "content": "Ты — помощник, который извлекает значения из текста медицинских анализов и выдаёт их строго в заданном формате."},
+            {"role": "user", "content": input_text}]
 
-text = tokenizer.apply_chat_template(
-    messages,
-    tokenize=False,
-    add_generation_prompt=True
+completion = client.chat.completions.create(
+    model="Qwen/QwQ-32B-Preview",
+    messages=messages,
+    max_tokens=100,
+    temperature=0.2,
+    top_p=0.9
 )
 
-model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
-
-generated_ids = model.generate(
-    **model_inputs,
-    max_new_tokens=512
-)
-
-generated_ids = [
-    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
-]
-
-response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
-
-print(response)
+result = extract_data(completion.choices[0].message.content)
+print(result)
