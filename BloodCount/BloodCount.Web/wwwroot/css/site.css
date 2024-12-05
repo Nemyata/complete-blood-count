@@ -1,0 +1,78 @@
+/* Устанавливаем шрифт Roboto для всего сайта */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d1f7d1; /* Светло-зеленый фон */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Стилизация формы */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Увеличиваем размер полей формы */
+input[type="file"],
+input[type="text"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+    input[type="file"]:focus,
+    input[type="text"]:focus,
+    textarea:focus {
+        border-color: #4CAF50;
+    }
+
+/* Кнопка загрузки */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+input[type="file"] {
+    font-size: 18px;
+}
+
+    /* Плавные эффекты при наведении */
+    button:hover, input[type="file"]:hover {
+        background-color: #45a049;
+        border-color: #388e3c;
+    }

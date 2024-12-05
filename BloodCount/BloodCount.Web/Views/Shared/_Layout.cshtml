@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анализатор крови</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @RenderSection("adittionalcss", false)
+    @RenderSection("AdditionalHeadContent", false)
+</head>
+<body>
+    <main style="width:100%" role="main">
+        @RenderSection("Content", false)
+        @RenderBody()
+
+        <div class="animationLoader">
+            <div class="animationLoader__row">
+                <div class="animationLoader__item"></div>
+                <div class="animationLoader__item"></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

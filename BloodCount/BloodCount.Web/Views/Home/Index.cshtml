@@ -1,0 +1,22 @@
+﻿@model BloodCount.Web.Model.FileViewModel
+
+
+<div class="container">
+    <h2>Анализатор крови</h2>
+
+    <!-- Форма для загрузки -->
+    <form method="post" enctype="multipart/form-data" class="form-inline" asp-controller="Home" asp-action="UploadFile">
+        <table>
+            <tr>
+                <td>
+                    <input asp-for="File" />
+                    <span asp-validation-for="File" class="text-danger" />
+                    @Html.ValidationMessageFor(model => model.File)
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-primary"> Загрузить </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

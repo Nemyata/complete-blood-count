@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.5.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BloodCount.DataAccess.Implementation\BloodCount.DataAccess.Implementation.csproj" />
+    <ProjectReference Include="..\BloodCount.DomainServices.Implementation\BloodCount.DomainServices.Implementation.csproj" />
+    <ProjectReference Include="..\BloodCount.Domain\BloodCount.Domain.csproj" />
+    <ProjectReference Include="..\submodules\Common\Common.Common\Common.Common.csproj" />
+  </ItemGroup>
+
+</Project>
